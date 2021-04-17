@@ -39,7 +39,6 @@ module.exports.deleteCardByID = (req, res, next) => {
       }
     })
     .catch((err) => {
-      console.log(err);
       if (err.kind === 'ObjectId') {
         next(new BadRequestError('Переданы некорректные данные при удалении карточки!'));
       } else {

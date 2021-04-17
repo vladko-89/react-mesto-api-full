@@ -9,8 +9,6 @@ function Main(props) {
 
   const currentUser = React.useContext(CurrentUserContext);
 
-
-
   return (
     <main className="main-index">
       <section className="profile">

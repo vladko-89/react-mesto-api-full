@@ -1,7 +1,6 @@
 class Api {
   constructor() {
     this._base = 'http://localhost:3000/';
-    this._token = '11f304a7-0c18-4e6f-ac0a-f5def34dbfe2';
   }
 
   _checkResponse(res) {

@@ -108,7 +108,12 @@ const validateLikeCard = celebrate({
 const validateCreateCard = celebrate({
   body: Joi.object().keys({
     name: Joi.string().min(2).max(30).required(),
-    link: Joi.string().min(18).required(),
+    link: Joi.string().required().custom((value, helpers) => {
+      if (redExLink.test(value)) {
+        return value;
+      }
+      return helpers.message('Невалидная ссылка');
+    }),
   }),
   headers: Joi.object().keys({
     'content-type': Joi.string().valid('application/json').required(),

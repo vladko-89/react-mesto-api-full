@@ -13,8 +13,6 @@ module.exports = (req, res, next) => {
 
     const payload = jwt.verify(token, NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret');
     req.user = payload;
-    console.log(payload);
-    console.log(NODE_ENV);
 
     next();
   } catch (err) {
