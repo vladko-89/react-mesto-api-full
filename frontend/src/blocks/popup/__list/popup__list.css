@@ -1,0 +1,11 @@
+.popup__list {
+  margin: 54px 0 48px 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 590px) {
+  .popup__list {
+    margin: 75px 0 45px 0;
+  }
+}

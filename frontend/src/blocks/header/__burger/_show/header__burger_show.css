@@ -1,0 +1,5 @@
+@media screen and (max-width: 400px) {
+  .header__burger_show {
+    display: block;
+  }
+}

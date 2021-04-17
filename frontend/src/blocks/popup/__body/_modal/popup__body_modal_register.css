@@ -1,0 +1,6 @@
+.popup__body_modal_register {
+  padding: 60px 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.popup__sign {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #ffffff;
+}

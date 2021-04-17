@@ -1,0 +1,7 @@
+.card__like_active {
+  background-image: url(../../../../image/heart_black.svg);
+}
+
+.card__like_active:hover {
+  background-image: url(../../../../image/heart_black_copy.svg);
+}

@@ -1,0 +1,8 @@
+.card__container {
+  height: 79px;
+  padding-left: 15px;
+  padding-right: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

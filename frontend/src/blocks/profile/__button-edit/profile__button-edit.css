@@ -1,0 +1,27 @@
+.profile__button-edit {
+  margin-left: 17px;
+  margin-top: 20px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  transition: border-color 0.5s, linear, 0.5s;
+}
+
+.profile__button-edit:hover,
+.profile__button-edit:focus {
+  border-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.profile__button-edit:hover.profile__vector > path {
+  fill: rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 450px) {
+  .profile__button-edit {
+    padding: 4px;
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+  }
+}

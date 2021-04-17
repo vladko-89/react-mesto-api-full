@@ -1,0 +1,15 @@
+.popup__body_modal_image {
+  padding: 0;
+  width: auto;
+  height: auto;
+  max-width: 75vw;
+  max-height: 75vh;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 590px) {
+  .popup__body_modal_image {
+    min-width: 75vw;
+  }
+}

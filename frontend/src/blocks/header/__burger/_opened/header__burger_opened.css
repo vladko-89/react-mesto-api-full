@@ -1,0 +1,13 @@
+.header__burger_opened {
+  top: 180px;
+  transform: rotate(45deg);
+}
+
+.header__burger_opened::before {
+  top: 0;
+}
+
+.header__burger_opened::after {
+  top: 0;
+  transform: rotate(-90deg);
+}

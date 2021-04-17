@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+  .cards__item {
+    margin: 0 auto;
+  }
+}

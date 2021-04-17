@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+  padding: 45px 0 36px 3px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    position: relative;
+    margin-bottom: 43px;
+    padding: 28px 0 27px 3px;
+  }
+
+  .header__flex {
+    flex-direction: column-reverse;
+  }
+}

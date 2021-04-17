@@ -1,0 +1,26 @@
+.cards {
+  margin: 0;
+  margin-bottom: 66px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards {
+    padding: 0 5px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cards {
+    margin-bottom: 48px;
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+}

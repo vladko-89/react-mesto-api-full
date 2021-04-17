@@ -1,0 +1,5 @@
+.form_opened {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
